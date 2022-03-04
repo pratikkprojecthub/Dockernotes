@@ -37,3 +37,10 @@ Commands:
 4. To get only the server version details, we run the command :                                   docker version --format '{{.Server.Version}}'
 5. Running to export a docker image as an archive , we run the command :                          docker save -o <exported_name>.tar <container-name>
 6. Running to import a pre-exported Docker image into another Docker host , we run the command :  docker load -i <export_image_name>.tar
+
+Critical Docker commands are:
+7. Build :                                                                                        Builds a Docker image file
+8. Commit :                                                                                       Creates a new image from container changes
+9. Create :                                                                                       Creates a new container
+10. Dockerd:                                                                                      Launches Docker daemon
+11. Kill:                                                                                         Kills a container
